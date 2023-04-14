@@ -1,12 +1,5 @@
-import {
-  Box,
-  Button,
-  ChakraProvider,
-  Input,
-  Spacer,
-  Stack,
-} from "@chakra-ui/react";
-import { useState, useEffect, ChangeEvent } from "react";
+import { Button, ChakraProvider, Input, Spacer, Stack } from "@chakra-ui/react";
+import { useState, useEffect } from "react";
 import { Session, createClient } from "@supabase/supabase-js";
 
 const supabase = createClient(
